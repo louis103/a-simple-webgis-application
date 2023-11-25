@@ -1,0 +1,43 @@
+#map {
+  height: 700px;
+  z-index: 10;
+  width: 100%;
+}
+h4 {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.legend {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  height: 11rem;
+  width: 20rem;
+  background-color: rgb(9, 176, 59);
+  z-index: 999;
+}
+.legend .wrapper {
+  display: flex;
+}
+.legend img {
+  width: 5.5rem;
+  height: 5.5rem;
+  z-index: 999;
+  margin: 0 10px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+}
